@@ -1,7 +1,7 @@
-name: App With Github Actions with Docker CI/CD
+name: push image docker hub
 
 on:
-  workflow_dispatch
+  push
 
 jobs:
   ci:
